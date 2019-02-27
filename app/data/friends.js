@@ -1,5 +1,5 @@
 var friendArray = [{
-        name: "Bill",
+        name: "Bill Murray",
         photo: "http://images2.fanpop.com/image/photos/13200000/Bill-Murray-bill-murray-13218839-500-333.jpg",
         scores: [
             "5",
@@ -15,8 +15,8 @@ var friendArray = [{
         ]
     },
     {
-        name: "Jacob Deming",
-        photo: "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+        name: "Will Ferrell",
+        photo: "http://images1.fanpop.com/images/image_uploads/Semi-Pro-will-ferrell-851786_724_483.jpg",
         scores: [
             "4",
             "2",
@@ -31,8 +31,8 @@ var friendArray = [{
         ]
     },
     {
-        name: "Jeremiah Scanlon",
-        photo: "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+        name: "Kristin Wiig",
+        photo: "http://images4.fanpop.com/image/photos/17600000/Gillie-kristen-wiig-17651776-665-683.jpg",
         scores: [
             "5",
             "2",
@@ -47,8 +47,8 @@ var friendArray = [{
         ]
     },
     {
-        name: "Louis T. Delia",
-        photo: "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+        name: "Tina Fey",
+        photo: "http://images1.fanpop.com/images/image_uploads/Tina-Fey-tina-fey-855768_351_468.jpg",
         scores: [
             "3",
             "3",
@@ -63,8 +63,8 @@ var friendArray = [{
         ]
     },
     {
-        name: "Lou Ritter",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+        name: "Jimmy Fallon",
+        photo: "http://images.fanpop.com/images/image_uploads/Jimmy-Fallon-jimmy-fallon-324162_384_288.jpg",
         scores: [
             "4",
             "3",
