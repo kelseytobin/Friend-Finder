@@ -7,8 +7,10 @@ module.exports = function (app) { //app to represent express
     });
 
     app.post("/api/friends", function (req, res) {
-        friendData.push(req.body);
-        res.json(true);
+        var newFriend = req.body;
+        
+        console.log(newFriend);
+
     });
 
 }
