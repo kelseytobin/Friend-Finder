@@ -217,9 +217,29 @@
       </div>
     </footer>
 
-</body>
+<!-- Modal for new friend pop up -->
 
-</html>
+<div class="modal" id="imagemodal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Friend Finder</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id ="caption">Your new friend is</p>
+      </div>
+      <img src="" id="imagepreview" class="text-center" height=80% width=80%>
+        <div class="caption" id="caption"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Start Javascript -->
 <!--------------------------------------------------------------------------------------- -->
@@ -247,7 +267,10 @@
       .done(function (data)  {
       
         console.log(newFriend); 
-      
+
+        $('#caption').text("Your new friend is" + data.name + "!");
+        $('#imagepreview').attr('src', data.photo);
+        $('#imagemodal').modal('show');
       
         //clear form when submitting
         $("#name").val("");
@@ -267,3 +290,6 @@ runApp();
   
   
   </script>
+
+</body>
+</html>
